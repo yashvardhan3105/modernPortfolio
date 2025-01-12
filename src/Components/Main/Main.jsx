@@ -125,17 +125,68 @@ const Main = ({ theme }) => {
             <div>
               {isOpen === "Unified Mentors" && (
                 <div className="main_experience_drops_titles_padding">
-                  <div>drop</div>
+                  <div>
+                    <h5>Full-Stack Developer {`(Remote)`}</h5>
+                    <p style={{ color: "aqua" }}>Dec 2024 - Jan 2025</p>
+                    <p style={{ color: "gray" }}>
+                      • Developed full-stack projects using JavaScript, HTML,
+                      CSS, and ReactJs at Unified Mentor, optimizing website
+                      performance.
+                    </p>
+                    <p style={{ color: "gray" }}>
+                      • Collaborated with team members to enhance user
+                      experience and ensure seamless functionality across
+                      various devices.
+                    </p>
+                    <p style={{ color: "gray" }}>
+                      • Implemented responsive design principles to create a
+                      user-friendly interface for improved user engagement.
+                    </p>
+                  </div>
                 </div>
               )}
               {isOpen === "Mapple Business Solutions" && (
                 <div className="main_experience_drops_titles_padding">
-                  <div>dip</div>
+                  <div>
+                    <h5>Front-End Developer {`(Remote)`}</h5>
+                    <p style={{ color: "aqua" }}>May 2024 - Aug 2025</p>
+                    <p style={{ color: "gray" }}>
+                      • Developed responsive web applications using ReactJs,
+                      Tailwind CSS, HTML, and CSS.
+                    </p>
+                    <p style={{ color: "gray" }}>
+                      • Collaborated with team members to implement dynamic
+                      features for enhanced user experience.
+                    </p>
+                    <p style={{ color: "gray" }}>
+                      • Utilized Git and Github for version control and project
+                      collaboration.
+                    </p>
+                  </div>
                 </div>
               )}
             </div>
           </div>
         </div>
+      </div>
+      <hr className="silver-line" />
+      <div className="main_footer" id="Contact">
+        <h3>HIRE ME</h3>
+        <p>
+          Download my{" "}
+          <a
+            rel="noreferrer"
+            target="_blank"
+            href="https://drive.google.com/file/d/18rz3YVk_hDhtoJW9AxARkN2bR6PUVlCp/view"
+          >
+            Resume
+          </a>
+        </p>
+        <p>
+          My mail:{" "}
+          <span className="main_footer_email">vardhan.yash3105@gmail.com</span>
+        </p>
+        <p>My contact info: +91 8789867690</p>
       </div>
     </div>
   );

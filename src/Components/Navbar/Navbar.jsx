@@ -16,7 +16,7 @@ const Navbar = () => {
           Resume
         </a>
         <div>
-          <a href="/Contact">Contact</a>
+          <a href="mailto:vardhan.yash3105@gmail.com">Mail Me</a>
         </div>
       </div>
     </div>
