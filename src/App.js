@@ -39,7 +39,7 @@ export default function App() {
           </svg>
         </button>
       </div>
-      <Main />
+      <Main theme={theme} />
       <Footer />
     </div>
   );

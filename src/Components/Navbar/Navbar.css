@@ -31,3 +31,29 @@
   position: absolute;
   transform: translateY(-2.2vw) translateX(80vw);
 }
+
+@media (max-width: 768px) {
+  .navbar_resumeContact {
+    margin-left: -100px;
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+  }
+  .navbar_container {
+    padding-left: 9%;
+  }
+  .navbar_button {
+    position: absolute;
+    transform: translateY(-8.5vw) translateX(80vw);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .navbar_container {
+    padding-left: 10%;
+  }
+  .navbar_button {
+    position: absolute;
+    transform: translateY(-3.5vw) translateX(88vw);
+  }
+}
